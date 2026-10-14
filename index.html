@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3D Flip Cards - Camera Series</title>
+    
+    <!-- This links your compiled SCSS -->
+    <link rel="stylesheet" href="./style.css"> 
+    
+    <!-- This loads the FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <!-- Card 1: Compact Mirrorless -->
+        <div class="card">
+            <input type="checkbox" id="card1" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                    <div class="inner">
+                        <h2>Street Compact</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <label for="card1" class="button" aria-hidden="true">
+                            Specs
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>24</span>
+                            <div class="icon">
+                                <i class="fas fa-camera"></i>
+                                <span>MP</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>4K</span>
+                            <div class="icon">
+                                <i class="fas fa-video"></i>
+                                <span>30fps</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>400</span>
+                            <div class="icon">
+                                <i class="fas fa-weight-hanging"></i>
+                                <span>grams</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>350</span>
+                            <div class="icon">
+                                <i class="fas fa-battery-full"></i>
+                                <span>shots</span>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>The perfect everyday carry for street photographers. Features a hybrid viewfinder, weather sealing, and film simulation modes built directly into the sensor processing.</p>
+                        </div>
+                        <div class="location">In Stock</div>
+                        <div class="price">$1,399</div>
+                        <label for="card1" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Professional Full-Frame -->
+        <div class="card">
+            <input type="checkbox" id="card2" class="more">
+            <div class="content">
+                <div class="front" style="background-image: url('https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                    <div class="inner">
+                        <h2>Pro Full-Frame</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <label for="card2" class="button" aria-hidden="true">
+                            Specs
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>45</span>
+                            <div class="icon">
+                                <i class="fas fa-camera"></i>
+                                <span>MP</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>8K</span>
+                            <div class="icon">
+                                <i class="fas fa-film"></i>
+                                <span>RAW</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>30</span>
+                            <div class="icon">
+                                <i class="fas fa-stopwatch"></i>
+                                <span>fps</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>2</span>
+                            <div class="icon">
+                                <i class="fas fa-sd-card"></i>
+                                <span>slots</span>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Uncompromising hybrid performance for working professionals. Features next-generation eye-autofocus, in-body image stabilization, and dual CFexpress card slots.</p>
+                        </div>
+                        <div class="location">Pre-Order</div>
+                        <div class="price">$3,899</div>
+                        <label for="card2" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Vintage 35mm -->
+        <div class="card">
+            <input type="checkbox" id="card3" class="more">
+            <div class="content">
+                <div class="front" style="background-image: url('https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                    <div class="inner">
+                        <h2>Vintage 35mm</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <label for="card3" class="button" aria-hidden="true">
+                            Specs
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>35</span>
+                            <div class="icon">
+                                <i class="fas fa-film"></i>
+                                <span>mm</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>1.4</span>
+                            <div class="icon">
+                                <i class="fas fa-eye"></i>
+                                <span>aperture</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>MF</span>
+                            <div class="icon">
+                                <i class="fas fa-hands"></i>
+                                <span>focus</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>0</span>
+                            <div class="icon">
+                                <i class="fas fa-battery-empty"></i>
+                                <span>mech.</span>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Slow down and shoot analog. A fully mechanical, refurbished classic SLR from the 1970s. No battery required to operate the shutter. Includes a bright 50mm f/1.4 prime lens.</p>
+                        </div>
+                        <div class="location">Refurbished</div>
+                        <div class="price">$450</div>
+                        <label for="card3" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
